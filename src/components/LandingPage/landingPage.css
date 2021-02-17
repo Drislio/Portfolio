@@ -1,10 +1,7 @@
-*{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: black;
-}
 .headerContent{
     text-align: center;
 }
+
 
 .nameTag{
     margin: 0;
@@ -45,5 +42,4 @@
 .logos.linkedln{
     width: 100px;
 }
-
 

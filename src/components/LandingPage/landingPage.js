@@ -8,8 +8,7 @@ import logo3 from "../../assets/InstagramLogo.png"
 
 const LandingPage = () =>{
     return (
-        <div>
-            
+        <div>      
             <div className="headerContent">
                 <h1 className="nameTag">Drislio</h1>
                 <span className="email">moni9009@abv.bg</span>
@@ -28,7 +27,8 @@ const LandingPage = () =>{
                         <a href=""><img className="logos" src={logo3}/></a>
                     </div>
                 </div>
-            </div>      
+            </div>  
+            <hr className="container" />    
         </div>
     )
 }

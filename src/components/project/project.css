@@ -1,0 +1,57 @@
+div{
+    display: block;
+}
+#container{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-bottom: 1px solid black;
+    margin-bottom: 5%;
+    padding-top: 75px;
+}
+
+.projectInfo{
+    width: 500px;
+    text-align: center;
+    padding-bottom: 200px;
+}
+.heading{
+
+    font-weight: bold;
+    margin-bottom: 2rem;
+}
+.projectDescription{
+    font-size: 20px;
+}
+
+.phonePhoto{
+    width: 140px;
+    height: 300px;
+    position: absolute;
+}
+.webPhoto{
+    width: 850px;
+    height: 450px;
+}
+.imagesContainer{
+    margin-bottom: 4%;
+    border-bottom: 2px solid black;
+}
+.technologies{
+    font-size: 28px;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 2%;
+}
+.projectLogos{
+    margin-top: 2px;
+    display: flex;
+    justify-content: center ;
+}
+.reactLogo{
+    
+    width: 50px;
+    height: 50px;
+}
