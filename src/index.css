@@ -1,4 +1,9 @@
 *{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: black;
+    
+}
+hr:not([size]) {
+    height: 1px;
+    opacity: 1;
 }

@@ -1,4 +1,10 @@
 import {Card, Button} from 'react-bootstrap'
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Link
+} from "react-router-dom";
 import ProjectImg from "../../assets/WeatherApp.webp"
 
 const Cards = () =>{
@@ -12,7 +18,10 @@ const Cards = () =>{
       Some quick example text to build on the card title and make up the bulk of
       the card's content.
     </Card.Text>
-    <Button id="btnGetcv" variant="outline-dark">View More</Button>
+    <div className="projbuttons">
+    <Button id="projBtn" variant="outline-dark">View More</Button>
+    <Button id="projBtn" variant="outline-dark">Visit</Button>
+    </div>
   </Card.Body>
 </Card>
 </div>
