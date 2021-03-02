@@ -1,10 +1,5 @@
 import {Card, Button} from 'react-bootstrap'
-import {
-  BrowserRouter as Router,
-  Switch,
-  Route,
-  Link
-} from "react-router-dom";
+import {Link} from "react-router-dom";
 import ProjectImg from "../../assets/WeatherApp.webp"
 
 const Cards = () =>{
@@ -19,7 +14,9 @@ const Cards = () =>{
       the card's content.
     </Card.Text>
     <div className="projbuttons">
-    <Button id="projBtn" variant="outline-dark">View More</Button>
+        <Link to="/project">
+          <Button id="projBtn" variant="outline-dark">View More</Button>
+        </Link>
     <Button id="projBtn" variant="outline-dark">Visit</Button>
     </div>
   </Card.Body>
