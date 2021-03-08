@@ -10,7 +10,7 @@ const LandingPage = () =>{
     return (
         <div>      
             <div className="headerContent">
-                <h1 className="nameTag">Drislio</h1>
+                <h1 className="nameTag">Drislio1</h1>
                 <span className="email">moni9009@abv.bg</span>
                 <div className="shiftLane">
                     <span>/Web Developer</span>
